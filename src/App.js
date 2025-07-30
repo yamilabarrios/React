@@ -7,10 +7,10 @@ import ItemListContainer from "./components/ItemListContainer";
 
 const App = () => {
   return React.createElement(
-    React.Fragment,
-    null,
+       'div',
+    { style: { backgroundColor: "#fff0f6", minHeight: '100vh', width: '100vw' } },
     React.createElement(NavBar, null),
-    React.createElement(ItemListContainer, { mensaje: "Bienvenida a Pelu de Mary, aquí vas a encontrar el estilo que te define" })
+    React.createElement(ItemListContainer, { mensaje: "Bienvenida a Pelu de Mary, aquí vas a encontrar el estilo que te define" }) 
   );
 };
 
